@@ -4,7 +4,7 @@ export function Footer() {
       <p className="text-muted text-xs">
         Desenvolvido por{" "}
         <a
-          href="https://linkedin.com/in/marlonvieirabalielo"
+          href="https://linkedin.com/in/marlon-balielo"
           target="_blank"
           rel="noopener noreferrer"
           className="text-primary font-semibold hover:underline"

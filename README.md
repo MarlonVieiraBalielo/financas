@@ -228,7 +228,7 @@ src/
 **Marlon Balielo**
 
 [![GitHub](https://img.shields.io/badge/GitHub-MarlonVieiraBalielo-181717?style=flat-square&logo=github)](https://github.com/MarlonVieiraBalielo)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Marlon_Balielo-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/marlonvieirabalielo)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Marlon_Balielo-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/marlon-balielo)
 
 ---
 

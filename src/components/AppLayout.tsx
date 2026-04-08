@@ -28,7 +28,7 @@ export function AppLayout() {
           ))}
         </nav>
         <a
-          href="https://linkedin.com/in/marlonvieirabalielo"
+          href="https://linkedin.com/in/marlon-balielo"
           target="_blank"
           rel="noopener noreferrer"
           className="text-muted text-xs hover:text-primary transition-colors mt-4 pt-4 border-t border-white/5 text-center"

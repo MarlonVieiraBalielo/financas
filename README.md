@@ -133,6 +133,8 @@ const SUPABASE_URL = "https://SEU_PROJETO.supabase.co";
 const SUPABASE_ANON_KEY = "SUA_CHAVE_AQUI";
 ```
 
+> As chaves ficam **apenas na sua máquina** — nunca suba esse arquivo com as credenciais reais para o GitHub.
+
 ### 5. Rode
 
 ```bash
@@ -140,37 +142,6 @@ npm run dev
 ```
 
 Acesse **http://localhost:5173**
-
----
-
-## 📦 Build para produção
-
-```bash
-npm run build
-```
-
-Gera a pasta `dist/` — suba ela no seu servidor Nginx.
-
-### Deploy no CasaOS (servidor doméstico)
-
-```bash
-# Copiar arquivos para o servidor
-scp -r dist/* usuario@IP_CASAOS:/DATA/AppData/nginx/html/financas/
-```
-
-Configuração Nginx mínima:
-
-```nginx
-server {
-    listen 80;
-    server_name financas.seudominio.com;
-    root /DATA/AppData/nginx/html/financas;
-    index index.html;
-    location / {
-        try_files $uri $uri/ /index.html;
-    }
-}
-```
 
 ---
 
@@ -219,7 +190,7 @@ src/
 - Autenticação gerenciada pelo Supabase Auth
 - Row Level Security em todas as tabelas — nenhum usuário acessa dados de outro
 - Chave `anon` do Supabase é pública por design (sem segredos no frontend)
-- Para produção, configure os domínios permitidos em **Supabase → Auth → URL Configuration**
+- Configure os domínios permitidos em **Supabase → Auth → URL Configuration**
 
 ---
 
